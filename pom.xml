@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>stocks</artifactId>
+        <groupId>com.reactive</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../stocks/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.reactive</groupId>
+    <artifactId>rx</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>designpatterns</module>
+        <module>../designpatterns</module>
+    </modules>
+
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.reactivex.rxjava2/rxjava -->
+        <dependency>
+            <groupId>io.reactivex.rxjava2</groupId>
+            <artifactId>rxjava</artifactId>
+            <version>2.2.4</version>
+        </dependency>
+
+    </dependencies>
+
+
+</project>
